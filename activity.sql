@@ -37,6 +37,7 @@ CREATE TABLE courses (
     	ON DELETE RESTRICT
 );
 
+-- Create teachers table
 CREATE TABLE teachers (
 	id INT NOT NULL AUTO_INCREMENT,
     teacher_name VARCHAR(50) NOT NULL,
