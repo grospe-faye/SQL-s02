@@ -7,6 +7,8 @@ CREATE TABLE students (
     PRIMARY KEY (id)  
 );
 
+-- Create student_courses table
+
 CREATE TABLE student_courses ( 
 	id INT NOT NULL AUTO_INCREMENT, 
 	course_id INT NOT NULL,
