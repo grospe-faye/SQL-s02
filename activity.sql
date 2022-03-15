@@ -25,6 +25,7 @@ CREATE TABLE student_courses (
     	ON DELETE RESTRICT  
 );
 
+-- Create courses table
 CREATE TABLE courses ( 
 	id INT NOT NULL AUTO_INCREMENT, 
 	course_name VARCHAR(50) NOT NULL,
