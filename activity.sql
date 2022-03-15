@@ -1,6 +1,7 @@
 -- Creation of database
 CREATE DATABASE enrollment_db;
 
+-- Create students table
 CREATE TABLE students (
 	id INT NOT NULL AUTO_INCREMENT,
     student_name VARCHAR(50) NOT NULL,
