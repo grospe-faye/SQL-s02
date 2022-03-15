@@ -1,3 +1,4 @@
+-- Creation of database
 CREATE DATABASE enrollment_db;
 
 CREATE TABLE students (
